@@ -11,8 +11,7 @@ const config = {
     name: 'VueGooglePlaces',
     exports: 'named',
     globals: {
-      'load-js': 'loadJS',
-      'vuetify/lib': 'Vuetify'
+      'load-js': 'loadJS'
     }
   },
   plugins: [
@@ -21,7 +20,7 @@ const config = {
     })
     //
   ],
-  external: ['load-js', 'vuetify/lib']
+  external: ['load-js']
 };
 
 // Only minify browser (iife) version
