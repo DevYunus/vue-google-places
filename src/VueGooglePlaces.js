@@ -167,8 +167,8 @@ export default {
 
       if(this.bounds.length) {
         const calgryBounds = new window.google.maps.LatLngBounds(
-          new google.maps.LatLng(this.bounds[0]),
-          new google.maps.LatLng(this.bounds[1])
+          new google.maps.LatLng(this.bounds[0],this.bounds[1]),
+          new google.maps.LatLng(this.bounds[2],this.bounds[3]),
         );
 
         options.bounds = calgryBounds;
