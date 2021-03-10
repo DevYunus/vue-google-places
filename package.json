@@ -1,7 +1,7 @@
 {
-  "name": "vue-google-places",
+  "name": "vue-google-places-with-bounds",
   "version": "0.1.6",
-  "description": "Vue Google Places Autocomplete",
+  "description": "Vue Google Places Autocomplete with bounds",
   "main": "dist/vue-google-places.umd.js",
   "module": "dist/vue-google-places.esm.js",
   "unpkg": "dist/vue-google-places.min.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yariksav/vue-google-places.git"
+    "url": "git+https://github.com/DevYunus/vue-google-places.git"
   },
   "keywords": [
     "vue",
@@ -40,10 +40,10 @@
     "autocomplete",
     "vuetify"
   ],
-  "author": "Yaroslav Savaryn",
+  "author": "Yunus Shaikh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yariksav/vue-google-places/issues"
+    "url": "https://github.com/DevYunus/vue-google-places/issues"
   },
-  "homepage": "https://github.com/yariksav/vue-google-places"
+  "homepage": "https://github.com/DevYunus/vue-google-places"
 }

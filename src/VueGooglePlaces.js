@@ -28,7 +28,9 @@ export default {
     value: String,
     version: String,
     types: [String, Array],
-    addressFields: Object
+    addressFields: Object,
+    strictBounds: Boolean,
+    bounds: Array
   },
   data () {
     return {
@@ -158,6 +160,21 @@ export default {
           country: this.country
         }
       }
+
+      if (this.strictBounds) {
+        options.strictBounds = this.strictBounds;
+      }
+
+      if(this.bounds.length) {
+        const calgryBounds = new window.google.maps.LatLngBounds(
+          new google.maps.LatLng(this.bounds[0]),
+          new google.maps.LatLng(this.bounds[1])
+        );
+
+        options.bounds = calgryBounds;
+    
+      }
+
 
       this.element = this.$el
       // this.element = this.$refs.input.$el || this.$refs.input
