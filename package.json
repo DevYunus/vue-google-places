@@ -1,6 +1,6 @@
 {
   "name": "vue-google-places-with-bounds",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Vue Google Places Autocomplete with bounds",
   "main": "dist/vue-google-places.umd.js",
   "module": "dist/vue-google-places.esm.js",
